@@ -3,7 +3,7 @@ namespace test{
     class Loader{
         // 查找文件
         public static function FindFile(){
-            echo 123;
+            echo 12;
         }
     }
 }
