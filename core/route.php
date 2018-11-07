@@ -8,7 +8,7 @@ namespace test{
         * @param  string   $name      路由标识
         * @param  string   $domain   域名
         */
-        public static function get($name,$domain){
+        public static function get($name1,$domain){
             
         }
         // 处理url
