@@ -1,7 +1,11 @@
 <?php
 namespace test{
     $list=scandir(__DIR__);
-    var_dump($list);
-    require __DIR__.'/loader.php';
-    Loader::FindFile();
+    // 遍历核心文件
+    for($i=3;$i<count($list);$i++)
+    {
+        require __DIR__.'/'.$list[$i];
+    }
+    Loader::findFile();
+    route::handleUrl();
 }
